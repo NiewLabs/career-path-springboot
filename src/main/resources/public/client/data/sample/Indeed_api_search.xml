@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response version="2">
+
+    <query>java</query>
+    <location>toronto</location>
+
+    <dupefilter>true</dupefilter>
+    
+    <highlight>false</highlight>
+    <totalresults>21</totalresults>
+    
+    <start>1</start>
+    <end>10</end>
+    
+    <radius>25</radius>
+    
+    
+    <pageNumber>0</pageNumber>
+    
+    
+    
+    
+    
+    
+    
+    
+    <results>
+        
+            
+                <result>
+                    <jobtitle>Custom Development &amp; Enterprise Architecture</jobtitle>
+                    <company>EMC</company>
+                    <city>Toronto</city>
+                    <state>OH</state>
+                    <country>US</country>
+                    <formattedLocation>Toronto, OH</formattedLocation>
+                    <source>SQL Server Worldwide User's Group (SSWUG)</source>
+                    <date>Thu, 12 Mar 2015 18:18:44 GMT</date>
+                    <snippet>10+ years JAVA or .NET development experience with significant exposure to all aspects of the software development lifecycle....</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=a4111a6a0e8c4952&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>a4111a6a0e8c4952</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Toronto, OH</formattedLocationFull>
+                    <formattedRelativeTime>14 days ago</formattedRelativeTime>
+                </result>
+
+
+        
+            
+                <result>
+                    <jobtitle>Sr. Java Backend Developers</jobtitle>
+                    <company>Software Transformations, Inc.</company>
+                    <city>Toronto</city>
+                    <state>OH</state>
+                    <country>US</country>
+                    <formattedLocation>Toronto, OH</formattedLocation>
+                    <source>Software Transformations, Inc.</source>
+                    <date>Sat, 21 Feb 2015 04:31:58 GMT</date>
+                    <snippet>Senior Java Backend Developer. Experience writing Java NIO services. Strong Java and J2EE design and development skills....</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=6c38b985ffe393f3&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>6c38b985ffe393f3</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Toronto, OH</formattedLocationFull>
+                    <formattedRelativeTime>30+ days ago</formattedRelativeTime>
+                </result>
+
+
+        
+            
+                <result>
+                    <jobtitle>Programmer Analyst</jobtitle>
+                    <company>FedEx Services</company>
+                    <city>Coraopolis</city>
+                    <state>PA</state>
+                    <country>US</country>
+                    <formattedLocation>Coraopolis, PA</formattedLocation>
+                    <source>FedEx Services</source>
+                    <date>Thu, 05 Mar 2015 19:45:10 GMT</date>
+                    <snippet>Design, Code, and unit test of existing and new Java applications. Analyze new and existing Java applications to identify and execute application improvements...</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=5e3c68b4ea0f08bb&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>5e3c68b4ea0f08bb</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Coraopolis, PA</formattedLocationFull>
+                    <formattedRelativeTime>21 days ago</formattedRelativeTime>
+                </result>
+
+
+        
+            
+                <result>
+                    <jobtitle>JAVA DEVELOPER, TRADING</jobtitle>
+                    <company>The Judge Group</company>
+                    <city>Toronto</city>
+                    <state>OH</state>
+                    <country>US</country>
+                    <formattedLocation>Toronto, OH</formattedLocation>
+                    <source>The Judge Group</source>
+                    <date>Tue, 24 Mar 2015 00:39:23 GMT</date>
+                    <snippet>Advanced level knowledge of Java. Our financial client is currently seeking a JAVA DEVELOPER, TRADING to join their team in Toronto....</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=b28956cbfbe0bac8&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>b28956cbfbe0bac8</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Toronto, OH</formattedLocationFull>
+                    <formattedRelativeTime>2 days ago</formattedRelativeTime>
+                </result>
+
+
+        
+            
+                <result>
+                    <jobtitle>Java Developer</jobtitle>
+                    <company>Software Specialists</company>
+                    <city>Coraopolis</city>
+                    <state>PA</state>
+                    <country>US</country>
+                    <formattedLocation>Coraopolis, PA</formattedLocation>
+                    <source>Software Specialists</source>
+                    <date>Tue, 10 Mar 2015 22:53:40 GMT</date>
+                    <snippet>Senior level Java programmer analyst needed to work on Enterprise Document Management (EDM) adoption/ modernization project....</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=eb06847a465258f6&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>eb06847a465258f6</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Coraopolis, PA</formattedLocationFull>
+                    <formattedRelativeTime>15 days ago</formattedRelativeTime>
+                </result>
+
+
+        
+            
+                <result>
+                    <jobtitle>Facilities &amp; Material Handling Engineer I - V</jobtitle>
+                    <company>Fedex Ground</company>
+                    <city>Township of Moon</city>
+                    <state>PA</state>
+                    <country>US</country>
+                    <formattedLocation>Township of Moon, PA</formattedLocation>
+                    <source>Fedex Ground</source>
+                    <date>Fri, 13 Mar 2015 18:23:18 GMT</date>
+                    <snippet>Knowledge of Java or Citrix applications is a plus. Supports vendors on preventative maintenance efforts for material handling and manual sortation equipment....</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=8ffacdce7a0bf040&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>8ffacdce7a0bf040</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Township of Moon, PA</formattedLocationFull>
+                    <formattedRelativeTime>13 days ago</formattedRelativeTime>
+                </result>
+
+
+        
+            
+                <result>
+                    <jobtitle>Solutions Desginer</jobtitle>
+                    <company>The Judge Group</company>
+                    <city>Toronto</city>
+                    <state>OH</state>
+                    <country>US</country>
+                    <formattedLocation>Toronto, OH</formattedLocation>
+                    <source>The Judge Group</source>
+                    <date>Wed, 25 Mar 2015 00:42:16 GMT</date>
+                    <snippet>Demonstrated skills and experience using Enterprise Architecture tools to design logical, physical application models in UML • Demonstrated skills and...</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=cf17a6d9ea8398ce&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>cf17a6d9ea8398ce</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Toronto, OH</formattedLocationFull>
+                    <formattedRelativeTime>1 day ago</formattedRelativeTime>
+                </result>
+
+
+        
+            
+                <result>
+                    <jobtitle>Programmer/Analyst Advisor</jobtitle>
+                    <company>FedEx Services</company>
+                    <city>Coraopolis</city>
+                    <state>PA</state>
+                    <country>US</country>
+                    <formattedLocation>Coraopolis, PA</formattedLocation>
+                    <source>FedEx Services</source>
+                    <date>Wed, 11 Feb 2015 18:33:38 GMT</date>
+                    <snippet>Java (J2EE, jdk 6+). Support others in the group learning Java concepts and design patterns. Want a career where you are empowered to make a difference?...</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=f87fc3f2f999d410&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>f87fc3f2f999d410</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Coraopolis, PA</formattedLocationFull>
+                    <formattedRelativeTime>30+ days ago</formattedRelativeTime>
+                </result>
+
+
+        
+            
+                <result>
+                    <jobtitle>Associate Programmer Analyst</jobtitle>
+                    <company>FedEx Services</company>
+                    <city>Coraopolis</city>
+                    <state>PA</state>
+                    <country>US</country>
+                    <formattedLocation>Coraopolis, PA</formattedLocation>
+                    <source>FedEx Services</source>
+                    <date>Wed, 04 Feb 2015 17:33:06 GMT</date>
+                    <snippet>Basic JAVA knowledge. Want a career where you are empowered to make a difference?...</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=643a7c9767b33786&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>643a7c9767b33786</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Coraopolis, PA</formattedLocationFull>
+                    <formattedRelativeTime>30+ days ago</formattedRelativeTime>
+                </result>
+
+
+        
+            
+                <result>
+                    <jobtitle>Sr Programmer Analyst</jobtitle>
+                    <company>FedEx Services</company>
+                    <city>Coraopolis</city>
+                    <state>PA</state>
+                    <country>US</country>
+                    <formattedLocation>Coraopolis, PA</formattedLocation>
+                    <source>FedEx Services</source>
+                    <date>Fri, 13 Feb 2015 00:38:05 GMT</date>
+                    <snippet>JAVA, JMS, Web Services (SOAP). Ongoing performance enhancements to existing Java applications. Ability to coach and train others in Java development....</snippet>
+                    <url>http://www.indeed.com/viewjob?jk=c9878f77830ce860&amp;qd=rg35-pn-1gOnJNJj8trlUV8bwraNfxWyFlyXZAXnDoSg6HIJQ8jsCVrLki4LDFDzq1XKhZu4RlSEsZoIcRsb4uqHN58wSvu-zVrDl4XhzjA&amp;indpubnum=6466374171056694&amp;atk=19hbq4ufu18d22u8</url>
+                    <onmousedown>indeed_clk(this, '8102');</onmousedown>
+                    <jobkey>c9878f77830ce860</jobkey>
+                    <sponsored>false</sponsored>
+                    <expired>false</expired>
+                    <indeedApply>false</indeedApply>
+                    <formattedLocationFull>Coraopolis, PA</formattedLocationFull>
+                    <formattedRelativeTime>30+ days ago</formattedRelativeTime>
+                </result>
+
+
+        
+    </results>
+</response>

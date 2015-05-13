@@ -1,0 +1,44 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.1.RELEASE")
+    }
+}
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+apply plugin: 'idea'
+
+
+group = 'com.niewlabs'
+version = '0.0.1'
+description = "Career Path"
+mainClassName = "com.niewlabs.careerpath.App"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version:'1.2.1.RELEASE'
+    compile group: 'junit', name: 'junit', version:'4.12'
+    compile group:'com.google.code.gson', name: 'gson', version: '2.3.1'
+}
+/*
+processResources {
+    from 'dataCopy'
+    from 'publicCopy'
+}
+task dataCopy(type: Copy) {
+    println "Doing data copy"
+    from 'data' into 'data'
+}
+task publicCopy(type: Copy) {
+    println "Doing public copy"
+    from 'public' into 'public'
+}
+*/

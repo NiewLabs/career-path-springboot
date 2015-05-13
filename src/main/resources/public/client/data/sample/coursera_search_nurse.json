@@ -1,0 +1,121 @@
+{
+
+    "elements": 
+
+[
+
+{
+
+    "id": 886,
+    "shortName": "tbmanagement",
+    "name": "Global Tuberculosis (TB) Clinical Management and Research",
+    "links": { }
+
+},
+{
+
+    "id": 1053,
+    "shortName": "researchforhealth",
+    "name": "Understanding Research: An Overview for Health Professionals",
+    "links": { }
+
+},
+{
+
+    "id": 855,
+    "shortName": "dementiacare",
+    "name": "Living with Dementia: Impact on Individuals, Caregivers, Communities and Societies",
+    "links": { }
+
+},
+{
+
+    "id": 1349,
+    "shortName": "univteaching101",
+    "name": "University Teaching 101",
+    "links": { }
+
+},
+{
+
+    "id": 382,
+    "shortName": "newwayhealthcare",
+    "name": "Interprofessional Healthcare Informatics ",
+    "links": { }
+
+},
+{
+
+    "id": 2028,
+    "shortName": "ruralnursing",
+    "name": "Rural Health Nursing",
+    "links": { }
+
+},
+{
+
+    "id": 371,
+    "shortName": "oldglobe",
+    "name": "Growing Old Around the Globe",
+    "links": { }
+
+},
+{
+
+    "id": 165,
+    "shortName": "disasterprep",
+    "name": "Disaster Preparedness",
+    "links": { }
+
+},
+{
+
+    "id": 527,
+    "shortName": "healthcaresafety",
+    "name": "The Science of Safety in Healthcare",
+    "links": { }
+
+},
+{
+
+    "id": 1800,
+    "shortName": "babyboomersanddrugs",
+    "name": "Alcohol, Drugs, and Baby Boomers: Are you ready?",
+    "links": { }
+
+},
+{
+
+    "id": 902,
+    "shortName": "population",
+    "name": "An Introduction to Population Health",
+    "links": { }
+
+},
+{
+
+    "id": 2933,
+    "shortName": "disasterpreparedness",
+    "name": "Disaster Preparedness for the Health Care Professional",
+    "links": { }
+
+},
+{
+
+    "id": 582,
+    "shortName": "instructmethodshpe",
+    "name": "Instructional Methods in Health Professions Education",
+    "links": { }
+
+},
+
+        {
+            "id": 69,
+            "shortName": "contraception",
+            "name": "Contraception: Choices, Culture and Consequences",
+            "links": { }
+        }
+    ],
+    "linked": { }
+
+}

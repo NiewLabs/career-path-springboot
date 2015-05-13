@@ -1,0 +1,90 @@
+html {
+    background: url(images/background-small.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.background-cover {
+    position:fixed;
+    content:"";
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    /*background:rgba(255,255,255,0.3);*/
+    z-index:-1;
+}
+
+body {
+    background-color: transparent;
+}
+
+.view {
+    margin: 20px;
+}
+
+
+
+.background-cover.hideBackground-add, .background-cover.hideBackground-remove,
+.hideBackground #search-form, .hideBackground #search-form #search-title
+{
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.7s;
+}
+
+.background-cover,
+.background-cover.hideBackground-remove.hideBackground-remove-active {
+    background:rgba(255,255,255, 0);
+}
+
+.background-cover.hideBackground,
+.background-cover.hideBackground-add.hideBackground-add-active {
+    background:rgba(255,255,255,1);
+}
+
+#search-form {
+    margin-top:200px;
+}
+
+.hideBackground #search-form {
+margin-top: 0;
+}
+
+#search-form #search-title {
+    color: white;
+    opacity: 1;
+    height: 60px;
+    font-size: 50px;
+}
+
+.hideBackground #search-form #search-title {
+    opacity: 0;
+    height: 0;
+}
+
+.form-control {
+    color: #525252;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: black !important;
+    opacity: 0.45 !important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: black !important;
+    opacity: 0.45 !important;
+}
+
+:-ms-input-placeholder {
+    color: black !important;
+    opacity: 0.45 !important;
+}
+
+.form-group-lg .input-group-btn button {
+    padding: 16px 14px 17px 14px;
+}
+
+.scrollable-list {
+    height: 300px;
+    overflow-y:scroll;
+    border: 1px solid #eee;
+}

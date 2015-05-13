@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-cloak ng-app="careerPath">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CareerPath</title>
+
+    <link rel="stylesheet" href="client/lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="client/styles.css"/>
+</head>
+<body ng-class="{hideBackground: !showBackground()}">
+
+<div ng-class="{hideBackground: !showBackground()}" class="background-cover"></div>
+
+<div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#/home">
+                    Niew
+                    <img src="client/images/leaf.png" alt="leaf" style="display:inline"/>
+                    Labs
+                </a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#/home">Home</a></li>
+                <li class="active"><a href="#/about">About</a></li>
+            </ul>
+
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="view">
+        <ng-view></ng-view>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="client/lib/highcharts/highcharts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular-animate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.0/ui-bootstrap-tpls.js"></script>
+
+<script src="client/app.js"></script>
+<script src="client/pages/home/homeCtrl.js"></script>
+<script src="client/pages/about/aboutCtrl.js"></script>
+
+<script src="client/pages/home/components/fieldDetailsDirective.js"></script>
+<script src="client/pages/home/components/resultListDirective.js"></script>
+<script src="client/pages/home/components/changeChartDirective.js"></script>
+<script src="client/pages/home/components/totalChartDirective.js"></script>
+<script src="client/ifReloadOnChangeDirective.js"></script>
+
+<script src="client/services/fieldDataService.js"></script>
+<script src="client/services/glassDoorApiService.js"></script>
+<script src="client/services/courseraApiService.js"></script>
+
+<script src="client/filters/uniqueFilter.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58991938-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
