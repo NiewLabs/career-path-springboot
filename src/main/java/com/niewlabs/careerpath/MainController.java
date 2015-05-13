@@ -24,8 +24,8 @@ import java.util.Map;
 public class MainController {
 
     String courseraUrl = "https://api.coursera.org/api/catalog.v1/courses?q=search&query={{nocCode}}&fields=language,links";
-    // FIXME: Fix the path
-    static Map<String, List<String>> nocToCoursera = HelperRW.readIn("./src/main/resources/public/client/data/groupings_to_coursera.json");
+
+    static Map<String, List<String>> nocToCoursera = HelperRW.readIn("public/client/data/groupings_to_coursera.json");
 
     @RequestMapping("/api")
     @ResponseBody
