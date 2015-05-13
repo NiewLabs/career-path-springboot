@@ -47,6 +47,8 @@ public class MainController {
         // FIXME: Use all query items... or not.
         if(nocToCoursera.containsKey(noc)) {
             query = nocToCoursera.get(noc).get(0);
+        } else {
+            return "Bad nocCode!";
         }
 
         try {
