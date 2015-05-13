@@ -44,7 +44,9 @@ public class MainController {
 
         String result = "";
         // FIXME: Use all query items... or not.
-        String query = nocToCoursera.get(noc).get(0);
+        if(nocToCoursera.containsKey(noc)) {
+            String query = nocToCoursera.get(noc).get(0);
+        }
 
         try {
             result = sendGet(query);
