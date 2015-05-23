@@ -10,8 +10,10 @@ angular.module('careerPath').directive('fieldDetails', function() {
     };
 });
 
-var FieldDetailsCtrl = function($sce, fieldData, glassDoorApi, courseraApi) {
+var FieldDetailsCtrl = function($sce, $location, fieldData, glassDoorApi, courseraApi) {
     var _this = this;
+    this.$location = $location;
+
     fieldData.load().then(function(data) {
         _this.fieldData = data;
         _this.sampleJobs = data.sampleJobMap[_this.field.groupingCode];

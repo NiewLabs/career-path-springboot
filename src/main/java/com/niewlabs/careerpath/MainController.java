@@ -1,16 +1,13 @@
 package com.niewlabs.careerpath;
 
+import com.niewlabs.careerpath.helpers.CourseraHelper;
+import com.niewlabs.careerpath.helpers.FileHelper;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URI;
-import java.net.URL;
 import java.util.List;
 import java.util.Map;
 
@@ -23,9 +20,7 @@ import java.util.Map;
 @EnableAutoConfiguration
 public class MainController {
 
-    String courseraUrl = "https://api.coursera.org/api/catalog.v1/courses?q=search&query={{nocCode}}&fields=language,links";
-
-    static Map<String, List<String>> nocToCoursera = HelperRW.readIn("public/client/data/groupings_to_coursera.json");
+    static Map<String, List<String>> nocToCoursera = FileHelper.readIn("public/client/data/groupings_to_coursera.json");
 
     @RequestMapping("/api")
     @ResponseBody
@@ -37,57 +32,21 @@ public class MainController {
 
     @RequestMapping("/api/coursera")
     @ResponseBody
-    String tag(@RequestParam(value = "nocCode") String noc) {
+    String courseraGet(@RequestParam(value = "nocCode") String noc) {
         if(noc.isEmpty()){
             return "Pass 'nocCode' request parameter.";
         }
 
         String result = "";
-        String query = "";
-        // FIXME: Use all query items... or not.
-        if(nocToCoursera.containsKey(noc)) {
-            query = nocToCoursera.get(noc).get(0);
-        } else {
-            return "Bad nocCode!";
-        }
 
         try {
-            result = sendGet(query);
+            result = CourseraHelper.searchCoursera(noc, nocToCoursera);
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         return result;
     }
 
-    private String sendGet(String noc) throws Exception {
 
-        String url = courseraUrl.replace("{{nocCode}}",noc);
-
-        URL obj = new URL(url);
-        HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-
-        // optional default is GET
-        con.setRequestMethod("GET");
-
-        //add request header
-        //private final String USER_AGENT = "Mozilla/5.0";
-        //con.setRequestProperty("User-Agent", USER_AGENT);
-
-        int responseCode = con.getResponseCode();
-
-        BufferedReader in = new BufferedReader(
-                new InputStreamReader(con.getInputStream()));
-        String inputLine;
-        StringBuffer response = new StringBuffer();
-
-        while ((inputLine = in.readLine()) != null) {
-            response.append(inputLine);
-        }
-        in.close();
-
-        return response.toString();
-
-    }
 }
 

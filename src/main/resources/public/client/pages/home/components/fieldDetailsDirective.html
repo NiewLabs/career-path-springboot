@@ -5,22 +5,6 @@
         <div change-chart job-seekers="ctrl.jobSeekers" job-change="ctrl.jobsChange"></div>
     </div>
     <div class="col-sm-6">
-        <h3>Occupations</h3>
-
-        <form>
-            <div class="input-group">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-filter"></i></span>
-                <input type="text" class="form-control" ng-model="ctrl.jobFilter" placeholder="filter occupations"/>
-            </div>
-        </form>
-        <div class="scrollable-list">
-            <ul class="list-group" style="margin-bottom: 0;">
-                <li class="list-group-item" ng-repeat="job in ctrl.sampleJobs | filter:ctrl.jobFilter | limitTo: 100 track by $index">
-                    {{job}}
-                </li>
-            </ul>
-        </div>
-
         <div ng-if="ctrl.glassDoorListings">
             <h3>Listings from Glassdoor</h3>
 
@@ -47,17 +31,32 @@
 
         <div ng-if="ctrl.courseraListings">
             <h3>Listings from Coursera</h3>
-
             <div class="scrollable-list">
-                <div ng-repeat="listing in ctrl.courseraListings">
-                    <h4>{{listing.name}}</h4>
+                <div> <!-- ng-repeat="course in ctrl.courseraListings.elements"> -->
+                    <h4>Coursera courses for search term "N"</h4>
                     <ul class="list-group">
-                        <li class="list-group-item" ng-repeat="job in listing.name">
-                            <a href="" ng-href="{{ctrl.getLinkToCoursera(element.shortName)}}" target="_blank">{{element.name}}</a>
+                        <li class="list-group-item" ng-repeat="course in ctrl.courseraListings.elements">
+                            <a href="" ng-href="{{ctrl.getLinkToCoursera(course.shortName)}}" target="_blank">{{course.name}}</a>
                         </li>
                     </ul>
                 </div>
             </div>
+        </div>
+
+        <h3>Occupations</h3>
+
+        <form>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-filter"></i></span>
+                <input type="text" class="form-control" ng-model="ctrl.jobFilter" placeholder="filter occupations"/>
+            </div>
+        </form>
+        <div class="scrollable-list">
+            <ul class="list-group" style="margin-bottom: 0;">
+                <li class="list-group-item" ng-repeat="job in ctrl.sampleJobs | filter:ctrl.jobFilter | limitTo: 100 track by $index">
+                    {{job}}
+                </li>
+            </ul>
         </div>
 
     </div>
